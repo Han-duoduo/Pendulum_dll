@@ -1,0 +1,7 @@
+﻿-IF:\Code\M\Simulink
+-IF:\Code\M\Simulink\rlSimplePendulumModel_ert_shrlib_rtw
+-I"D:\Matlab23b\Matlab 2023b 64bit\install\extern\include"
+-I"D:\Matlab23b\Matlab 2023b 64bit\install\simulink\include"
+-I"D:\Matlab23b\Matlab 2023b 64bit\install\rtw\c\src"
+-I"D:\Matlab23b\Matlab 2023b 64bit\install\rtw\c\src\ext_mode\common"
+-I"D:\Matlab23b\Matlab 2023b 64bit\install\rtw\c\ert"

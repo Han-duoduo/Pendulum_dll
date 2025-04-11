@@ -1,0 +1,2 @@
+set "VSCMD_START_DIR=%CD%"
+CALL "D:\VS2022IDE\VC\Auxiliary\Build\VCVARSALL.BAT " amd64

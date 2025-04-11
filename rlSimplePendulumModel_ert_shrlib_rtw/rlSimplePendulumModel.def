@@ -1,0 +1,11 @@
+        EXPORTS
+        rlSimplePendulumModel_M
+        rlSimplePendulumModel_U
+        rlSimplePendulumModel_Y
+    rlSimplePendulumModel_initialize
+            rlSimplePendulumModel_step
+        rlSimplePendulumModel_terminate
+
+
+        
+
