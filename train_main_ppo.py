@@ -5,7 +5,6 @@ from elegantrl import get_gym_env_args
 from datetime import datetime
 import warnings
 from PendulumDLL.PendulumEnv import PendulumDLLEnv
-
 warnings.filterwarnings("ignore")
 
 import gymnasium as gym
@@ -22,7 +21,7 @@ register(
 
 def train_ppo_for_pendulum():
     agent_class = AgentPPO
-    env_class = gym.make
+    env_class = PendulumDLLEnv
     env_args = {
         'env_name': 'PendulumDLL-v0',
         'state_dim': 3,
