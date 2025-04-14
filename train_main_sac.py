@@ -15,7 +15,7 @@ from gymnasium.envs.registration import register
 
 def train_sac_for_pendulum():
 	agent_class = AgentSAC
-	env_class = gym.make
+	env_class = PendulumDLLEnv
 	env_args = {
 		'env_name': 'PendulumDLL-v0',
 		'state_dim': 3,
