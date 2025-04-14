@@ -5,9 +5,8 @@ from elegantrl import get_gym_env_args
 from datetime import datetime
 import warnings
 from PendulumDLL.PendulumEnv import PendulumDLLEnv
-
 warnings.filterwarnings("ignore")
-from PendulumDLL.PendulumEnv import PendulumDLLEnv
+
 
 
 def train_td3_for_pendulum():
